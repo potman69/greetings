@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <link rel="stylesheet" href="greet.css">
-    <script type="text/javascript" src="greet.js"></script>
 
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="header" style="background-color:black;color:#39FF33;padding:20px;">
-  <h2>Welcome To My Greeting Page:</h2>
-  <form>
-    <label id="name">Please enter your Name:</label>
-    <input id="mytext" type="text"><br>
-    <button id="button" type="button" onclick="myFunction()">Press this button to display a personal greeting:</button><br>
-    <label>Please select a language:</label><br>
-          <input type="radio" id="english" value="english" name="language">
-          <label for="english" class="light">English</label>
-          <input type="radio" id="afrikaans" value="afrikaans" name="language">
-          <label for="afrikaans" class="light">Afrikaans</label>
-          <input type="radio" id="xhosa" value="xhosa" name="language">
-          <label for="xhosa" class="light">Xhosa</label>
+<head>
+  <link rel="stylesheet" href="greet.css">
+  <!-- <script type="text/javascript" src="greet.js"></script> -->
 
-</form>
-  <section>
-    <h1 id="geetingName"></h1>
-    <h1>The Amount of Greetings for Today Is:</h1>
-    <div id="counterDisplay"></div>
-    <button id="button1" type="button1" onclick="clearLocalStorage()">Reset Counter</button>
-  </section>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <div class="header" style="background-color:black;color:#39FF33;padding:20px;">
+    <h2>Welcome To My Greeting Page:</h2>
+    <form>
+      <label id="name">Please enter your Name:</label>
+      <input id="mytext" type="text"><br>
+      <button id="button" type="button" onclick="myFunction()">Press this button to display a personal greeting:</button><br>
+      <label>Please select a language:</label><br>
+      <input type="radio" id="english" value="english" name="language">
+      <label for="english" class="light">English</label>
+      <input type="radio" id="afrikaans" value="afrikaans" name="language">
+      <label for="afrikaans" class="light">Afrikaans</label>
+      <input type="radio" id="xhosa" value="xhosa" name="language">
+      <label for="xhosa" class="light">Xhosa</label>
+
+    </form>
+    <section>
+      <h1 id="geetingName"></h1>
+      <h1>The Amount of Greetings for Today Is:</h1>
+      <div id="counterDisplay"></div>
+      <button id="button1" type="button1" onclick="clearLocalStorage()">Reset Counter</button>
+    </section>
 
 
-  </body>
-  <script src="greet.js">
-    <!--  Write your JavaScript here -->
+</body>
+<script src="greet.js">
 </script>
+
 </html>

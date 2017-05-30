@@ -1,43 +1,44 @@
-.header{
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    font-size: 50px;
-    background-color: yellow;
-
-}
-.greeting{
+.header {
   text-align: center;
   width: 100%;
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
   font-size: 50px;
-
-
+  background-color: yellow;
 }
-#button{
+
+.greeting {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  font-size: 50px;
+}
+
+#button {
   font-size: 50px;
   background-color: #FF33E3;
   margin-top: 40px;
 }
-#button1{
+
+#button1 {
   font-size: 50px;
   background-color: #FF33E3;
   margin-top: 40px;
 }
+
 #name {
   font-style: oblique;
   font-size: 40px;
-
 }
-#geetingName {
-  background-color:#33FFE9;
-  color: red;
-  }
-  #mytext {
 
-    font-size: 20px;
-  }
+#geetingName {
+  background-color: #33FFE9;
+  color: red;
+}
+
+#mytext {
+  font-size: 20px;
+}
